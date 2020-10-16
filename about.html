@@ -1,0 +1,111 @@
+<!--about.html
+Heron Melo
+heron_melo@student.uml.edu
+Student of GUI Programming I 91.61 - UML
+File Created on: 10/15/2020
+In this assignment we will improve homework2 with bootstrap
+This web page shows a bit about myself and my assignments.-->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 3 meta tags above needed -->
+    <title>Heron Melo Website</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- NAVBAR (got it from getbootstrap.com and edited it) -->
+
+    <nav class="navbar navbar-inverse">
+     <div class="container-fluid">
+    <!-- Creating header for navbar and making collaping navbar -->
+      <div class="navbar-header">
+       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+       </button>
+        <a class="navbar-brand" href="https://cs.uml.edu/~hmelo">Heron Melo</a>
+     </div>
+
+    <!-- dropdown -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li> <a href="http://cs.uml.edu/~hmelo/" target="_blank" class="btn btn-link" role="button">Home</a> </li>
+        <li> <a href="http://cs.uml.edu/~hmelo/about.html" target="_blank" class="btn btn-link" role="button">About me</a> </li>
+        <li> <a href="http://cs.uml.edu/~hmelo/hobbies.html" target="_blank" class="btn btn-link" role="button">Hobbies</a> </li>
+      <!-- Dropdown for HW -->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+          aria-haspopup="true" aria-expanded="false">Homework <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://cs.uml.edu/~hmelo/HW2/index.html">Homework 2</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="http://cs.uml.edu/~hmelo/HW3_sourceCode/index.html">Homework 3</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="https://cs.uml.edu/~hmelo/index.html">Homework 4</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Homework 5 (coming up)</a></li>
+          </ul>
+        </li>
+
+          <div class="col-xs-12">
+            <ul class="nav navbar-nav navbar-pull-left">
+
+            <li><a href="#">Contact: Heron Melo</a></li>
+            <li><a href="#">Email: heron_melo@student.uml.edu</a></li>
+            </ul>
+          </div>
+      </div>
+  </div>
+</nav>
+<!-- Jumbotron placed in a container. Col set to 12. So jumbotron, progress bar and panel are all lined up.  -->
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+
+<div class="jumbotron text-center">
+
+<h2> About me </h2><hr>
+  <p> Welcome to my webpage. My name is Heron Melo, I was born in Brazil so my first language is portugues.</p>
+  <p> <strong>I am a Computer Science major at UMass - Lowell.<strong></p>
+  <p> This webpage is being developed through the semester in Graphical User Interface Programming I.
+    In this class we will be covering <mark> HTML, CSS, JavaScript and JQuery.<mark></p>
+
+  <p> This webpage is being implemented along the semester with new functionality.</p>
+
+  </div>
+
+<hr>
+
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">Classes I'm Taking This Semester!</h3>
+  </div>
+  <div class="panel-body">
+    <p>COMP.3090 - Database I</p>
+    <p>COMP.4610 - GUI I Programming</p>
+    <p>COMP.3040 - Foundations of CS</p>
+    <p>MATH.2220 - Linear Algebra II<p>
+    <p>ENVI.1100 - Global Environmental<p>
+  </div>
+  <div class="panel-footer">Fall 2020</div>
+</div>
+
+</div>
+</div>
+    <div style="height:400px"></div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
