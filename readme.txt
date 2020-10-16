@@ -10,5 +10,5 @@ http://cs.uml.edu/~hmelo/HW2/index.html
 -In this version i have used container's in order to be able to be able to align everything inside the container,
 i have also use jubuntron, tables, navbar, dropdown, links, column settings, progress bar, panel, mark ups, button classes.. 
 
-unable to run my page on github. I was able to import all the files, but not host my page.
-https://github.com/heronviana/myportfolio.git
+github link:
+https://heronviana.github.io/
