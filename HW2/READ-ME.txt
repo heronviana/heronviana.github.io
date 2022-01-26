@@ -1,0 +1,14 @@
+READ-ME
+
+Heron Melo
+heron_melo@student.uml.edu
+Student of GUI Programming I 91.61 - UML
+File Created on: 09/15/2020
+This is my first assignment using html and css. I used ATOM.
+This web page shows a bit about myself and my assignments.
+
+Validations:
+CSS validated and worked. 
+Markup Validation takes a while on W3C and then i get a "read timeout" and it stops, however
+i was able to validade on https://validator.nu/ and it worked out.
+

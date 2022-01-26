@@ -1,0 +1,69 @@
+/*stylesheet*/
+
+/* body style */
+body{
+  line-height: 1.6em;       /*spacing btwn lines*/
+  margin:0;                 /*body margin*/
+  background: lightblue;    /*background: color;*/
+  }
+h1{                         /*to manage h1. aka Heron Melo. background colors, margins, padding and text decoration.*/
+   color:black;
+   background:lightblue;
+   margin-bottom:10px;
+   padding: 40px;
+   text-decoration:underline;
+   text-transform:uppercase;
+   }
+h3{                       /* to manage h3, background color, margins and padding.*/
+  text-align: center;
+  background:lightyellow;
+  margin-top: 5px;
+  padding:30px;
+}
+a{                    /* link colors   */
+  color:black;
+}
+a:hover{               /* link colors when hovered over it   */
+    color:blue;
+}
+
+.about_box{                 /* css style for about.html file <p> */
+    background-color: black;
+    color:white;
+    padding: 10px;
+    border:3px solid white;
+}
+.about_box_index{           /* css style for index.html file for ul */
+    background-color: white;
+    font-weight:bold;
+    border-radius:0px;
+}
+.container_index_1{         /* css style for index.html file for writting conf and positions */
+  width: 95%;
+  padding-top:60px;
+  margin: auto;
+  font-size:16px;
+}
+.container_1{             /* css style for about.html file for setting the contact info */
+  width:90%;
+  margin: auto;
+}
+.container_assignment{    /* css style for assignment.html file for ul */
+  background-color: white;
+  color:black;
+  padding: 10px;
+  border:3px solid black;
+  margin-top:50px;
+}
+.container_hobbies{       /* css style for hobbies.html file for <p> */
+  width:90%;
+  margin:auto;
+}
+#main_footer{           /* footer design */
+  background:black;
+  color:#fff;
+  text-align:center;
+  padding:10px;
+  margin-top:100px;
+
+}

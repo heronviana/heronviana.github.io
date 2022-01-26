@@ -1,0 +1,127 @@
+
+body {    /*  body sizing setting    */
+      height: 100%;
+      width: 100%;
+}
+
+#wrapper {
+      margin: auto;
+      width: 80%;
+      min-width: 600px;
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: 200px 400px;
+}
+
+body {      /*  body margin, font setting and background image   */
+      background-image: url("ptrbackground.jpg");
+      color: #666666;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+}
+
+.resort {
+      color: #3399cc;
+      font-weight: bold;
+}
+/* 1. Header  */
+
+header {
+      padding-left: 20px;
+      grid-column: 1/4;
+      color: white;
+      background-image: url("./sunset.jpg");
+      background-size: 100% 100%;
+}
+
+/* 2. Content  */
+
+#content {
+      grid-column: 2/4;
+      background-color: white;
+
+      padding: 20px 20px 20px;
+}
+
+h2 {
+      color: #3399cc;
+}
+
+img {
+      float: left;
+      margin-right: 25px;
+}
+
+p {
+      padding-bottom: 0px;
+}
+
+li {
+  /* List style - replace list-item marker with image
+  https://www.w3schools.com/cssref/pr_list-style.asp
+  */
+  list-style: inside url("marker.gif");
+}
+
+/* 3. Navigation Bar  */
+
+nav {
+
+  grid-row: 2/4;
+  background-color: lightskyblue;
+
+}
+
+nav ul {
+  padding-left: 20px;
+  list-style: none;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+nav a:visited {
+  color: #344873;
+}
+
+nav a:hover {
+  color: #ffffff;
+}
+
+/* 4. Contact */
+
+#contact {
+  font-size: 90%;
+  margin-bottom:10px;
+}
+
+/* 5. Footer  */
+
+footer {
+  grid-column: 2/4;
+  padding: 25px;
+  font-family: Georgia, "Times New Roman", serif;
+  background-color: white;
+  font-style: italic;
+  font-size: 70%;
+}
+
+/* 6. Additional  */
+
+h1,
+h2 {
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+.resort {
+  color: #3399cc;
+  font-weight: bold;
+}

@@ -1,0 +1,103 @@
+/*University of Massachusetts - Lowell
+  HW3 - GUI Programming I - External style css
+  heron_melo@student.uml.edu
+  File:pacific.css*/
+/*http://cs.uml.edu/~hmelo/assignments.html*/
+
+body {            /* body sizing setting  */
+      width: 100%;
+      height: 100%;
+
+     }
+
+#wrapper {      /* wrapper, margin settings   */
+      margin: auto;
+      width: 80%;
+      min-width: 600px;
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: 200px 400px;
+      }
+
+body {                /*  body margin, font setting and background image   */
+			background-image: url("ptrbackground.jpg");
+			color: #666666;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0;
+
+}
+
+.resort {
+      color: #3399cc;
+      font-weight: bold;
+}
+
+header {      /* header setting and background image   */
+      padding-left: 20px;
+      grid-column: 1/4;
+      color: white;
+      background-image: url("./sunset.jpg");
+      background-size: 100% 100%;
+}
+
+#content {
+      grid-column: 2/4;
+      background-color: white;
+      padding: 20px 20px 20px;   /* padding for content   */
+}
+
+h2 {
+      color: #3399cc;
+}
+
+img {     /* element float set to left with a margin   */
+      float: left;
+      margin-right: 25px;
+}
+
+p {
+      padding-bottom: 0px;
+}
+#content li {  /*list names gif image*/
+      list-style: inside url("marker.gif");
+}
+
+nav {
+
+      background-color: lightskyblue;  /* background color setting */
+      grid-row: 2/4;     /*  nav bar position setting  */
+}
+
+nav ul {        /* ul settings  */
+      padding-left: 20px;
+      font-weight: bold;
+      list-style: none;
+      font-size: 1.2em;
+}
+
+nav a {     /* nav font settings  */
+      color: black;
+      text-decoration: none;
+}
+
+nav a:visited {   /* visited links */
+      color: darkblue;
+}
+
+nav a:hover {
+      color: red;
+}
+
+#contact {    /* contact settings */
+        font-size: 90%;
+        margin-bottom: 10px;
+}
+
+footer {        /* footer settings  */
+        font-family: Georgia, "Times New Roman", serif;
+        grid-column: 2/4;
+        padding: 25px;
+        background-color: white;
+        font-style: italic;
+        font-size: 10px;
+}
